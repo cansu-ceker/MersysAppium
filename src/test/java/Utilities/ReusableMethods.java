@@ -19,7 +19,7 @@ public class ReusableMethods extends Hooks {
 
     public void tabOnThePoints(int startX, int startY) {
         action = new AndroidTouchAction(androidDriver);
-        action.tap(point(startX, startY)).perform();
+        action.tap(PointOption.point(startX, startY)).perform();
     }
 
     public void scroll(int fromX, int fromY, int toX, int toY) {
