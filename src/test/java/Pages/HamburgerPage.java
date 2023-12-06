@@ -35,6 +35,25 @@ public class HamburgerPage extends Hooks {
     public By password=By.xpath("//android.widget.EditText[@resource-id='ion-input-1']");
     public By singIn=By.xpath("//android.widget.Button[@text='SIGN IN']");
 
+    /* --------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     public void staleElement(By element) {
